@@ -1,0 +1,14 @@
+Difference between Copy by value and copy by reference :
+	Copy by Value :
+		let a = 10;
+		let b = a;
+		a = 30;
+		console.log(b): /// Output : 10 (Here the value only only copied to b from a not an address)
+	Copy by Reference :
+		Let myArray = [1,2,3,4,5];
+		let myArray2 = myArray;
+		myArray[0] = 10;
+		console.log(myArray) ; // [10 , 2 , 3 , 4 , 5]
+		console.log(myArray) ; // [10 , 2 , 3 , 4 , 5]
+		
+		>> Here the both array pointing the same address so if one array get any update means it will reflect on other also...
