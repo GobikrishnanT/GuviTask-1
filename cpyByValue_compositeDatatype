@@ -1,0 +1,5 @@
+How to copy by value a composite datatype (array+objects)?
+Ans : 
+     1 .  Using the spread (...) operator
+     2 . Using the Object.assign() method
+     3 .  Using the JSON.stringify() and JSON.parse() methods
